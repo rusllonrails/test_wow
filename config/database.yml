@@ -9,8 +9,8 @@ common: &common
 
 development:
   <<: *common
-  database: test_wow_development
+  database: wowan_development
 
 test:
   <<: *common
-  database: test_wow_test
+  database: wowan_test
